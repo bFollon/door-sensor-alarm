@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { AlarmService } from './service/alarm.service'; // Import AlarmService
+import { AlarmService } from './alarm/alarm.service'; // Import AlarmService
 import { DataStoreService } from './data/datastore.service';
 
 @Injectable()

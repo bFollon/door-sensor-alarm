@@ -1,6 +1,6 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { DataStoreService } from 'src/data/datastore.service';
-import { AlarmService } from 'src/service/alarm.service';
+import { AlarmService } from 'src/alarm/alarm.service';
 import { Sensor, SensorState } from './sensor.model';
 import { sensorClassCodec } from '../sensor/sensor.model';
 import { Either, fold, right } from 'fp-ts/lib/Either';

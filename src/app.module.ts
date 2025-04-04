@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { ConfigModule } from '@nestjs/config';
-import { AlarmService } from './service/alarm.service';
+import { AlarmService } from './alarm/alarm.service';
 import { DataStoreService } from './data/datastore.service';
 import { SensorService } from './sensor/sensor.service';
 import { HttpModule } from '@nestjs/axios';
